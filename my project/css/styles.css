@@ -1,0 +1,49 @@
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* 这是一个低饱和的灰色 */
+    color: #333; /* 文本颜色稍微深一点，以确保对比度 */
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #eaeaea; /* 比body稍微深一点的灰色 */
+    text-align: center;
+    padding: 2rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #eaeaea; /* 同header */
+}
+
+nav a {
+    color: #555; /* 深灰色，确保在浅灰色背景上可读 */
+    padding: 8px 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #777; /* 鼠标悬停时的颜色 */
+}
+
+/* ... 其他样式保持不变 ... */
+
+
+.photo img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+}
